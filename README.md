@@ -9,9 +9,12 @@ You need to edit `config.py` to correcpond to the SSID and PSK of your WLAN.  `M
 
 Files:
 | File | Description |
+| --- | --- |
 | config.py | WLAN and MQTT configuration. |
 | boot.py | Just direct execution to main.py. |
 | main.py | Main code |
+| DS18B20SBS-B.stl | Bottom casing for Pico and PCB |
+| DS18B20SBS-top-B.stl | Top casing for Pico and PCB |
 
 Note that the code (`main.py`) is made to read two independent
 one-wire interfaces fed using a 3v3 regulator.  If you only need one,
@@ -32,6 +35,4 @@ to ground at boot time to give a number 0 to 3 with the read
 frequencies 10s, 5min, 15min 30min.
 
 
-To enhance stability, a simple 3v3 regulator on a small PCB is used to
-drive the to sensors.
 
