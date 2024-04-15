@@ -4,7 +4,6 @@ Use a Raspberry Pi Pico W to read a DS18B20 Temperature sensor and publish data 
 ![The sensor unit.](Images/mounted-half_size.gif)
 
 The code is written in MicroPython and the basic structure of it is copied from https://github.com/HenrikSolver/picowhanport.
-For general notes on MicroPython, refer to https://github.com/mats-bergstrom/halix/tree/main/BluePi.
 
 The casing of the unit is modelled in OpenScad and the STL of the bottom and the top cover are in this git.
 
